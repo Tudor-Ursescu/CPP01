@@ -4,12 +4,12 @@
 This module focuses on memory allocation, pointers to members, references, and switch statements in C++98. You’ll explore stack vs. heap allocation, references, and deeper object management techniques.
 
 ## 📜 General Rules
-- Compilation: Use c++ -Wall -Wextra -Werror and ensure compatibility with -std=c++98.
+- Compilation: Use `c++ -Wall -Wextra -Werror` and ensure compatibility with `-std=c++98.`
 
 - Naming Conventions:
     - Class names follow UpperCamelCase.
 
-    - Header files match class names (ClassName.hpp).
+    - Header files match class names (`ClassName.hpp`).
 
 - Forbidden Features:
     - `using namespace <ns_name>` and `friend` keywords.
