@@ -12,20 +12,20 @@ This module focuses on memory allocation, pointers to members, references, and s
     - Header files match class names (ClassName.hpp).
 
 - Forbidden Features:
-    - using namespace <ns_name> and friend keywords.
+    - `using namespace <ns_name>` and `friend` keywords.
 
     - STL (Vectors, Lists, Maps, etc.) until Module 08.
 
-    - std::string::replace in Exercise 04.
+    - `std::string::replace` in Exercise 04.
 
 - Memory Management: Avoid memory leaks when using new.
 
-- Include Guards: Use #ifndef / #define to prevent double inclusion.
+- Include Guards: Use `#ifndef / #define` to prevent double inclusion.
 
 ## Exercises
 
 ### 🧠 Exercise 00 - BraiiiiiiinnnzzzZ
-Objective: Implement a Zombie class with a name attribute and an announce() function.
+Objective: Implement a Zombie class with a `name` attribute and an `announce()` function.
 - Implement two functions:
     - `Zombie* newZombie(std::string name);` (allocates on the heap)
 
